@@ -1,4 +1,4 @@
-# MEN stack api
+# MEN stack API
 
 MongoDB, Express, Node api
 
