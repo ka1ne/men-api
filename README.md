@@ -1,6 +1,6 @@
 # MEN stack API
 
-MongoDB, Express, Node api
+MongoDB, Express, Node API to enter, query and manipulate user data.
 
 ## DB setup
 
