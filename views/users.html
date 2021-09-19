@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<form action="/users" method="post"> 
+    <div class="caption">Enter Your User Data</div>
+    <input type="text" placeholder="User name" name="name" <%=users[i].name; %>
+    <input type="text" placeholder="User gender" name="gender" <%=users[i].gender; %>
+    <input type="date" placeholder="date of birth" name="dob" <%=users[i].dob; %>
+    <button type="submit">Submit</button>
+</form>
+
+<!-- <form action="/users/${id}" method="put"> 
+    <div class="caption">Update User Data</div>
+    <input type="text" placeholder="User Id" name="id" <%=users[i].id; %>
+    <input type="text" placeholder="User name" name="name" <%=users[i].name; %>
+    <input type="text" placeholder="User gender" name="gender" <%=users[i].gender; %>
+    <button type="submit">Update</button>
+</form>
+
+<form action=`/users/${id}` method="delete"> 
+    <div class="caption">Delete User Data</div>
+    <input type="text" placeholder="User Id" name="id" <%=users[i].id; %>
+    <button type="submit">Delete</button>
+</form> -->
+
+<form action="/users" method="get"> 
+    <button type="submit">GET ALL USERS</button>
+</form>
+</html>

@@ -1,4 +1,5 @@
 const User = require('../models/user');
+const path = require('path');
 
 exports.create = function (req, res, next) {
     var newUser = new User(req.body);
@@ -11,6 +12,10 @@ exports.create = function (req, res, next) {
             }).catch(next);
         }
     })
+};
+
+exports.home = function (req, res) {
+    res.sendFile(path.resolve('views/users.html'));
 };
 
 exports.index = function (req, res, next) {
